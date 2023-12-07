@@ -17,15 +17,15 @@ view: salesperson {
     sql: ${TABLE}.salesperson_id ;;
   }
 
-  # dimension: salesperson_first_name  {
-  #   type:  string
-  #   sql: ${TABLE}.salesperson_first_name ;;
-  # }
+  dimension: salesperson_first_name  {
+    type:  string
+    sql: ${TABLE}.salesperson_first_name ;;
+  }
 
-  # dimension: salesperson_last_name  {
-  #   type:  string
-  #   sql: ${TABLE}.salesperson_last_name ;;
-  # }
+  dimension: salesperson_last_name  {
+    type:  string
+    sql: ${TABLE}.salesperson_last_name ;;
+  }
 
   dimension: salesperson_level  {
     type:  string
