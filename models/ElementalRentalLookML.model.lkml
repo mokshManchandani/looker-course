@@ -1,12 +1,12 @@
 connection: "cna-test"
-access_grant:  provide_access{
-  allowed_values: ["developer"]
-  user_attribute: "user_access"
-}
+# access_grant:  provide_access{
+#   allowed_values: ["developer"]
+#   user_attribute: "user_access"
+# }
 include: "/views/*.view.lkml"
 
 explore: inventory {
-  required_access_grants: [provide_access]
+  # required_access_grants: [provide_access]
   group_label: "Element Rental"
   description: "All current inventory data"
   join: office {
